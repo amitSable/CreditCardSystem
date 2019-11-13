@@ -1,0 +1,117 @@
+
+table {
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+    top: 10px;
+  }
+  table * {
+    position: relative;
+  }
+  table td, table th {
+    padding-left: 8px;
+    border-bottom: 1px solid #e4e0e0;
+    text-align: center;
+  }
+  table thead tr {
+    height: 60px;
+    background: #dfe0e0;
+    border-bottom: 1px solid #e4e0e0;
+    text-align: center;
+    cursor: pointer;
+  }
+  table tbody tr {
+    height: 50px;
+    cursor: pointer;
+  }
+  tr:hover {
+    background: #dfe0e0;
+  }
+
+  .add-cart-btn
+  {
+    cursor: pointer;
+    padding: 12px;
+    position: relative;
+    left: 20px;
+    top: 60px;
+    border: none;
+    font-weight: bold;
+  }
+
+  .close-form-btn{
+     float: right; 
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 12px;
+  }
+
+
+  .user-form{
+      width: 600px;
+      height: 230px;
+      margin: 0 auto;
+  }
+
+  .user-form-row{
+      float: left;
+      width: 100%;
+  }
+
+  .user-form-row input[type="text"] {
+        float: left;
+        height: 20px;
+        outline: none;
+        border: none;
+        border-bottom: 1px dashed gray;
+        font-size: 18px;
+        margin: 16px;
+        cursor: pointer;
+}
+
+.submit-form-btn{
+    float: right;
+    padding: 12px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.user-form-row p{
+    width: 30%;
+    float: left;
+}
+
+.user-form-row p:after{
+    content: '*';
+    color: #ff0d0d;
+}
+
+.error-msg{
+    color: #ff0d0d;
+    line-height: 40px
+}
+
+.user-details-label{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+::placeholder {
+    color: gray;
+    opacity: 0.3;
+    margin-left: 10px 
+  }
+
+
+
+
+  
